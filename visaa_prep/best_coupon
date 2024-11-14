@@ -8,7 +8,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
         if (0.10*x>100){
-           int s=(int)(x-(0.10*x));
+           int s=(int)(x-(0.10*x));-----> need to converted into integer because it obtain in float value as result
             System.out.println(s);
         }
         else{
