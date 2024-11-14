@@ -4,14 +4,17 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-     /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+ /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc=new Scanner(System.in);
-        int x=sc.nextInt();//300
-        if (0.10*x>100){  //30>100
-            System.out.println(0.90*x);//270
+        int x=sc.nextInt();
+        if (0.10*x>100){
+           int s=(int)(x-(0.10*x));
+            System.out.println(s);
         }
         else{
-            System.out.println(x-100);  //300-100=200
+            int l=(int)(x-100);
+            System.out.println(l);
         }
-    }
+        
+       }
 }
