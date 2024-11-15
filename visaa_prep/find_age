@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+        int ageOfVignesh=x-15;    /* 25-10=15(constant age difference between them) */
+        System.out.println(ageOfVignesh);
+        
+    }
+}
