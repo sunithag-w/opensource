@@ -7,7 +7,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
      /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         int N=sc.nextInt();
-        int totalNoteBook=10*N;   /* totalnotebook=(1000*n)/100 */
+        int totalNoteBook=10*N;   /* for n kg of puip --> totalnotebook=(1000*n)/100 */
         System.out.println(totalNoteBook);
     }
 }
