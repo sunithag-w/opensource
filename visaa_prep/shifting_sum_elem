@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-import java.io.*;
+import java.io.*; -------------->i/p[0,3,4,67,2]===o/p [3,7,74,73,69]
 
 class Codechef
 {
