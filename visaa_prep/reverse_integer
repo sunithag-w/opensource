@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(reversevalu(n));
+    }
+    public static int reversevalu(int n){
+        long reverse=0;
+        int sign=n<0 ?-1:1;
+       n=Math.abs(n);
+        while(n>0){
+            int dl=n%10;
+            reverse=reverse*10+dl;
+            n=n/10;
+        }
+        reverse=reverse*sign;
+        if(reverse<Integer.MIN_VALUE||reverse>Integer.MAX_VALUE){
+            return 0;
+        }
+        return ((int)reverse);
+    
+        
+    }
+}
